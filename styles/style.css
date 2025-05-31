@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: white;
+    color: black;
+    font: normal 1em arial, helvetica, sans-serif;
+}
+
+header {
+    background-color: lightblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    padding-bottom: 5px;
+}
+
+main h2 {
+    padding: 10px 0;
+}
+
+main p {
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 10px 0;
+}
+
+.conteudo-flex {
+    background-color: lightgray;
+    padding: 20px;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.texto {
+    flex: 1 1 500px;
+}
+
+.midia {
+    flex: 1 0 400px;
+}
+
+.midia-texto {
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+
+.texto-midia {
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.img-texto {
+    text-align: right;
+}
+
+.video-texto {
+    text-align: left;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 90%;
+    padding-top: 20px;
+}
+
+.normal, ul {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-size: 18px;
+}
+
+footer a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
